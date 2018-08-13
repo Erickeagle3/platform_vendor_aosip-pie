@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
+    MarkupGoogle \
     messaging \
     Recorder \
     WeatherClient \

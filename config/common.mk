@@ -50,6 +50,11 @@ endif
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Markup libs
+PRODUCT_COPY_FILES += \
+    vendor/aosip/prebuilt/common/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+    vendor/aosip/prebuilt/common/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+
 # Configs
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/sysconfig/aosip-power-whitelist.xml:system/etc/sysconfig/aosip-power-whitelist.xml \
