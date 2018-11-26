@@ -17,6 +17,10 @@ PRODUCT_PACKAGES += \
     AOSIPFonts \
     OmniStyle
 
+#SubsKey
+PRODUCT_PACKAGES += \
+    SubstratumSignature
+
 # Lawnchair Default Configuration
 PRODUCT_PACKAGES += \
     LawnConf
