@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
 
 # DerpFest packages
 PRODUCT_PACKAGES += \
-    AOSIPFonts
+    AOSIPFonts \
+    OmniStyle
 
 # Lawnchair Default Configuration
 PRODUCT_PACKAGES += \
